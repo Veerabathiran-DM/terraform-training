@@ -14,7 +14,6 @@ resource "google_compute_instance" "gce_1" {
     network_interface {
       network = "first-network"
       subnetwork = "sub-us"
-      network_ip = "172.10.10.11"
     }
     }
   
